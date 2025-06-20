@@ -21,8 +21,8 @@ def solve_knight_tour(board, row, col, count, move_x, move_y, n):
 
 def knight_tour(n):
     board = [[-1 for _ in range(n)] for _ in range(n)]
-    move_x = [2, 1, -1, -2, -2, -1, 1, 2]
-    move_y = [1, 2, 2, 1, -1, -2, -2, -1]
+    move_x = [2, 1, -1, -2, -2, -1, 1, 2] # Knight's possible moves in x direction
+    move_y = [1, 2, 2, 1, -1, -2, -2, -1] # Knight's possible moves in y direction
     
     board[0][0] = 1  # Start from the first cell
     if not solve_knight_tour(board, 0, 0, 2, move_x, move_y, n):

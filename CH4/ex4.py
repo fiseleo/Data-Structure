@@ -7,3 +7,5 @@ C = A + B
 print("A + B =", C)
 C = np.dot(A, B)
 print("A * B =", C)
+C = A-B
+print("A - B =", C)
