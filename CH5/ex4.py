@@ -109,10 +109,10 @@ class Polynomial:
 
 # Example usage
 p = Polynomial()
-p.Insert(1, 3)
-p.Insert(2, 2)
-p.Insert(3, 1)
-p.Insert(5, 0)
+p.Insert(1, 3) # 1x^3
+p.Insert(2, 2) # 2x^2
+p.Insert(3, 1) # 3x^1
+p.Insert(5, 0) # 5x^0
 
 value = p.Evaluate(2)
 print(f"Polynomial evaluated at x=2: {value}")
